@@ -1,0 +1,25 @@
+<!DOCTYPE HTML><HTML><HEAD><TITLE>Adobe Captivate Widget</TITLE><META NAME="generator" content="Adobe Captivate 6"></META><script type="text/javascript" src="../../assets/js/jquery-1.11.3.min.js"></script><script type="text/javascript" src="../../assets/js/OpenAjaxManagedHub-all.js"></script><script type="text/javascript">function init(){	hubClient = new OpenAjax.hub.IframeHubClient({HubClient: {onSecurityAlert: function() {}		   }	});	hubClient.connect(function() {		var id = hubClient.getClientID();		hubClient.publish(id+"_loaded","loaded");	});}function deInit() { if(hubClient) { 	hubClient.disconnect(); } } jQuery(document).ready(function() {	init();});</script></HEAD><BODY><script src="createjs/easeljs-0.5.0.min.js"></script> 
+      <script src="createjs/tweenjs-0.3.0.min.js"></script> 
+      <script src="createjs/movieclip-0.5.0.min.js"></script> 
+      <script src="createjs/preloadjs-0.2.0.min.js"></script> 
+      <script type="text/javascript" src="libs/notesjs.js"></script>
+      <body>
+      <div style="position:relative;">
+      <canvas id="canvas" width="120" height="100" style="alignment-adjust:auto"></canvas>
+      </div>
+      <link rel="stylesheet" href="css/default.css" />
+      <link rel="stylesheet" href="css/notes.css" />
+      <link rel="stylesheet" href="css/colorPicker.css" type="text/css" />
+      <link rel="stylesheet" href="css/fontColorPicker.css" type="text/css" />
+      <link rel="stylesheet" href="css/jquery-ui.css" />
+      <script src="scripts/jquery-latest.js"></script>
+      <script src="scripts/jquery-1.9.1.js"></script>
+      <script src="scripts/jquery-ui.js"></script> 
+	  <script src="scripts/jquery.ui.touch-punch.js"></script> 
+      <script src="scripts/json2.js"></script> 
+      <script src="scripts/notes.js"></script> 
+      <script type="text/javascript" src="scripts/notes_use.js"></script>
+      <script language="javascript" type="text/javascript" src="scripts/jquery.colorPicker.js"/></script> 
+      <script language="javascript" type="text/javascript" src="scripts/jquery.FontColorPicker.js"/></script>  
+      <div class="NotesContainer" id="NotesContainer"></div>
+      </body><script type="text/javascript" src="scripts/notes_use.js"></script></BODY></HTML>

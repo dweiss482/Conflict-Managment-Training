@@ -1,0 +1,50 @@
+div.colorPicker-picker {
+	cursor: pointer;
+	position: relative;
+	float: right;
+	padding: 1px;
+	height: 25px;
+	width: 25px;
+	background: url(../images/bgColorPanel.png) no-repeat top right;
+	color:#FFF;
+	cursor: pointer;
+	line-height: 16px;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	
+}
+
+div.colorPicker-palette {
+	width: 160px;
+	position: absolute;
+	border: 1px solid #598FEF;
+	background-color: #EFEFEF;
+	padding: 1px;
+	z-index: 9999;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	
+}
+
+div.colorPicker-swatch {
+	height: 12px;
+	width: 12px;
+	border: 1px solid #000;
+	margin: 1px;
+	float: left;
+	cursor: pointer;
+	position:relative;
+	line-height: 12px;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	
+}
